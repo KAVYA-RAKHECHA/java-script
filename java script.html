@@ -1,0 +1,24 @@
+<html>
+<head>
+<script> 
+document.write("CHECK EVEN NUMBER OR ODD NUMBER");
+function even()
+{
+var n=parseInt(document.getElementById('n1').value);
+if (n%2==0)
+//document.write("Number Is Even");
+document.getElementById('result').value="Number Is Even";
+else
+//document.write("Number Is Odd");
+document.getElementById('result').value="Number Is Odd";
+}
+</script>
+</head>
+<body>
+<br>
+ENTER THE NUMBER:<input type="text" id="n1"/> <br> <br> <br> 
+<button onclick="even();"> submit </button>
+<br> <br> <br> <br>
+RESULT:<input type="text" id='result'/> 
+</body>
+</html>
